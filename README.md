@@ -180,7 +180,7 @@ The time set in nodata() should be defined according to the refresh time of the 
 
 Regexp is used to distinguish the return valued.
 
-For the RRPP the idea is the same as for the LACP. Here it is just checked if the string **timeout** is found in the string returned, if not a ring is open.
+For the RRPP the idea is the same as for the LACP. Here, it is just checked if the string **timeout** is found in the string returned, if not a ring is opened.
 
 ```
 {monitor.rrpp[{HOST.CONN},{$SNMP_COMMUNITY},{$TIMEOUT},{$RETRIES}].nodata(60)}=0 
