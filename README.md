@@ -194,4 +194,4 @@ and {rrpp[{HOST.CONN},{$SNMP_COMMUNITY},{$TIMEOUT},{$RETRIES}].regexp(timeout)}=
 
 For more detailed example you can look at the templates.
 
-**Warning, macro should be correctly defined before using the templates**
+**Warning, macros should be correctly defined before using the templates**
